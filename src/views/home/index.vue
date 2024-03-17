@@ -1,13 +1,10 @@
-.<template>
-  <h1>secciones </h1>
+<template>
+  <!-- <h1>secciones </h1> -->
+  <banner />
 </template>
 
-<script>
-export default {
-
-}
+<script setup lang="ts">
+import banner from "./banner.vue";
 </script>
 
-<style>
-
-</style>
+<style></style>
