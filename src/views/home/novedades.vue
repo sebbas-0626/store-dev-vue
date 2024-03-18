@@ -1,19 +1,18 @@
 <template>
   <div>
     <section>
-        <!-- <h1 class="text-5xl font-bold flex justify-center mt-14 ">NOVEDADES</h1> -->
-        <h1 class="text-xl sm:text-5xl font-bold flex justify-center mt-14">NOVEDADES</h1>
-
-        <cardsVue/>
+      <h1 class="text-xl sm:text-5xl font-bold flex justify-center mt-14">
+        NOVEDADES
+      </h1>
+      <Cards />
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
-import cardsVue from "../../components/cards.vue";
-
+// import cards from "../../components/cards.vue";
+import { ref, defineComponent } from "vue";
+import Cards from "../../components/cards.vue";
 </script>
 
-<style>
-
-</style>
+<style></style>
