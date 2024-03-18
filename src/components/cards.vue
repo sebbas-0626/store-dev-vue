@@ -1,140 +1,361 @@
 <template>
-  <div class="bg-slate-400 w-56 m-3">
-    <div class="">
-      <div class="bg-red-500">
-        <!-- <div class="bg-black w-32 m-2 flex justify-center rounded-lg">
-          <span class=" text-white  pt-3">Novedad</span>
-        </div> -->
-        <span class=""></span>
-        <!-- <div class=""><span>+</span></div> -->
-        <a href="https://codevmonkey.com/producto/camiseta-python/"
-          ><img
-            class="w-56"
-            loading="lazy"
+  <div>
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mx-7 my-7">
+      <!-- <div class="w-80 m-3 border border-gray-200 rounded-md">
+        <a href="" style="position: relative; display: inline-block">
+          <img
+            class="w-80"
             src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
             alt="Camiseta Python"
-        /></a>
-        <div class="bg-black text-white flex justify-center">
-          <a
-            href=""
-            onclick="assignData(event, '1243', true)"
-            data-value="s"
-            data-tag="size"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="S"
-            >S</a
+          />
+          <div
+            class="bg-black w-16 m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
           >
-          <a
-            href=""
-            onclick="assignData(event, '1243', true)"
-            data-value="m"
-            data-tag="size"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="M"
-            >M</a
+            <span class="text-white text-xs">NOVEDAD</span>
+          </div>
+        </a>
+        <div class="container">
+          <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+              'animate-fade-in': isVisible,
+              'animate-fade-out': !isVisible,
+            }"
+            :style="{
+              opacity: isVisible ? 1 : 0,
+              visibility: isVisible ? 'visible' : 'hidden',
+            }"
           >
-          <a
-            href=""
-            onclick="assignData(event, '1243', true)"
-            data-value="l"
-            data-tag="size"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="L"
-            >L</a
-          >
-          <a
-            href=""
-            onclick="assignData(event, '1243', true)"
-            data-value="xl"
-            data-tag="size"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="XL"
-            >XL</a
-          >
-          <a
-            href=""
-            onclick="assignData(event, '1243', true)"
-            data-value="xxl"
-            data-tag="size"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="XXL"
-            >XXL</a
-          >
-        </div>
-
-        <!-- <a
-          href=""
-          data-quantity="1"
-          id="add-to-cart-1243"
-          onclick="return addProductCart(this)"
-          onmouseover="showMessage(event)"
-          onmouseout="hideMessage(event)"
-          class="add_to_cart_button"
-          data-product_id="1243"
-          data-variation_id="1243"
-          data-size=""
-          data-color="Negro / Azul"
-          data-product_sku=""
-          aria-label="Añade “Camiseta Python” a tu carrito"
-          aria-describedby=""
-          data-label="Añadir a mi cesta"
-          data-validate_size="Seleccione una talla"
-          data-validate_color="Seleccione un color"
-          rel="nofollow"
-          >Añadir a mi cesta</a
-        > -->
-      </div>
-
-      <div class="bg-white border border-gray-200">
-        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
-        <div class="colors-options">
-          <a
-            class="negro-azul"
-            data-tag=""
-            href=""
-            onclick="assignData(event, '1243', false)"
-            data-value="Negro / Azul"
-            data-quantity="1"
-            data-product_id="1243"
-            data-product_sku=""
-            aria-label="Negro / Azul"
-            title="Negro / Azul"
-          ></a>
-        </div>
-        <div class="title">
-          <a href="https://codevmonkey.com/producto/camiseta-python/"
-            >Camiseta Python</a
-          >
-        </div>
-        <div class="">
-          <div class="font-bold">
-            <span class="woocommerce-Price-amount amount"
-              ><bdi
-                >35&nbsp;<span class="woocommerce-Price-currencySymbol"
-                  >€</span
-                ></bdi
-              ></span
-            >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
           </div>
         </div>
-      </div>
+        <div class="h-16">
+          <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+          <div class="colors-options"></div>
+          <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+          </div>
+          <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+          </div>
+        </div>
+      </div> -->
+      <div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
     </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+
+<div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
+    </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+<div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
+    </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+<div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
+    </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+<div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
+    </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+<div class="w-full sm:w-80 m-3 border border-gray-200 rounded-md">
+    <a href="" style="position: relative; display: inline-block">
+        <img
+            class="w-full sm:w-80"
+            src="https://codevmonkey.com/wp-content/uploads/product/fc395984393ab34ccf27ad06de117861.jpg"
+            alt="Camiseta Python"
+        />
+        <div
+            class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm"
+            style="position: absolute; top: 0; left: 0"
+        >
+            <span class="text-white text-xs">NOVEDAD</span>
+        </div>
+    </a>
+    <div class="container">
+        <div
+            class="bg-black text-white grid grid-cols-5 h-12 text-center py-3"
+            :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }"
+            :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }"
+        >
+            <a href="">S</a>
+            <a href="">M</a>
+            <a href="">L</a>
+            <a href="">XL</a>
+            <a href="">XXL</a>
+        </div>
+    </div>
+    <div class="h-16">
+        <a class="add-favorite ml-auto"><i class="bi bi-heart"></i></a>
+        <div class="colors-options"></div>
+        <div class="mx-5 mt-3">
+            <a href="">CAMISETA PYTHON</a>
+        </div>
+        <div class="font-bold mx-5">
+            <span class="">35<span>€</span></span>
+        </div>
+    </div>
+</div>
+    </section>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+import { onMounted, ref } from "vue";
+
+const isVisible = ref(false);
+
+onMounted(() => {
+  setInterval(() => {
+    isVisible.value = true;
+    setTimeout(() => {
+      isVisible.value = false;
+    }, 3000);
+  }, 6000);
+});
 </script>
 
-<style>
+<style scoped>
+.container {
+  transition: opacity 0.3s, visibility 0.3s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in;
+}
+
+.animate-fade-out {
+  animation: fade-out 0.3s ease-out;
+}
 </style>

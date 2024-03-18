@@ -1,7 +1,8 @@
 <template>
   <div>
     <section>
-        <h1 class="text-5xl font-bold flex justify-center mt-14">NOVEDADES</h1>
+        <!-- <h1 class="text-5xl font-bold flex justify-center mt-14 ">NOVEDADES</h1> -->
+        <h1 class="text-xl sm:text-5xl font-bold flex justify-center mt-14">NOVEDADES</h1>
 
         <cardsVue/>
     </section>
