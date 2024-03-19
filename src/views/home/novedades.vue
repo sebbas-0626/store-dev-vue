@@ -10,8 +10,6 @@
 </template>
 
 <script setup lang="ts">
-// import cards from "../../components/cards.vue";
-import { ref, defineComponent } from "vue";
 import Cards from "../../components/cards.vue";
 </script>
 
