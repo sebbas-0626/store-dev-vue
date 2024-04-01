@@ -1,44 +1,21 @@
-.<template>
+<template>
   <div>
-    <div class="flex justify-center">
-      <div class="mx-4">
-        <img
-          src="/public/images/hombre/saco1.webp"
-          class="bg-white w-20 h-20 rounded-full border border-gray-300"
-        />
-      </div>
-      <div>
-        <img
-          src="/public/images/hombre/saco2.webp"
-          class="bg-white w-20 h-20 rounded-full border border-gray-300"
-        />
-      </div>
-    </div>
-    <div class="flex justify-center">
-      <div class="mx-4">
-        <img
-          src="/public/images/hombre/saco1.webp"
-          class="bg-white w-20 h-20 rounded-full border border-gray-300"
-        />
-      </div>
-      <div>
-        <img
-          src="/public/images/hombre/saco2.webp"
-          class="bg-white w-20 h-20 rounded-full border border-gray-300"
-        />
-      </div>
-    </div>
+    <AvatarGallery :avatars="avatars"/>
     <section>
       <Cards/>
     </section>
   </div>
-  
 </template>
 
-<script  setup lang="ts">
+<script setup lang="ts">
 import Cards from "../../components/cards.vue";
+import AvatarGallery from '@/components/AvatarGallery.vue';
+
+const avatars = [
+  { src: "/public/images/hombre/saco1.webp" },
+  { src: "/public/images/hombre/saco2.webp" },
+];
 </script>
 
 <style>
-
 </style>
