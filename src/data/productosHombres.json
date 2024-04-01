@@ -1,0 +1,52 @@
+[
+    {
+        "image":"/public/images/hombre/js.jpg",
+        "title": "CAMISETA JAVASCRIPT",
+        "price":"65.000"
+    },
+    {
+        "image":"/public/images/hombre/code.jpg",
+        "title": "CAMISETA CODING",
+        "price":"60.000"
+    },
+    {
+        "image":"/public/images/hombre/dev.jpg",
+        "title": "CAMISETA JAVASCRIPT",
+        "price":"65.000"
+    },
+    {
+        "image":"/public/images/hombre/py.jpg",
+        "title": "CAMISETA PYTHON",
+        "price":"60.000"
+    },
+    {
+        "image":"/public/images/hombre/code.jpg",
+        "title": "CAMISETA CODING",
+        "price":"60.000"
+    },
+    {
+        "image":"/public/images/hombre/js.jpg",
+        "title": "CAMISETA JAVASCRIPT",
+        "price":"65.000"
+    },
+    {
+        "image":"/public/images/hombre/dev.jpg",
+        "title": "CAMISETA DEVELOPER LIMITED EDITION",
+        "price":"70.000"
+    },
+    {
+        "image":"/public/images/hombre/code.jpg",
+        "title": "CAMISETA CODING",
+        "price":"60.000"
+    },
+    {
+        "image":"/public/images/hombre/py.jpg",
+        "title": "CAMISETA PYTHON",
+        "price":"60.000"
+    },
+    {
+        "image":"/public/images/hombre/dev.jpg",
+        "title": "CAMISETA DEVELOPER LIMITED EDITION",
+        "price":"70.000"
+    }
+]
