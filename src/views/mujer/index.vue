@@ -19,3 +19,4 @@ const avatars = [
 
 <style>
 </style>
+../../components/Card.vue

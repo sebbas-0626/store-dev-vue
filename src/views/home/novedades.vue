@@ -14,3 +14,4 @@ import Cards from "../../components/cards.vue";
 </script>
 
 <style></style>
+../../components/Card.vue

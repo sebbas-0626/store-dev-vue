@@ -2,61 +2,51 @@
     {
         "image":"/public/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price":"65.000"
     },
     {
         "image":"/public/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-2"
+        "price":"60.000"
     },
     {
         "image":"/public/images/hombre/dev.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug": "CAMISETA-JAVASCRIPT-3"
+        "price":"65.000"
     },
     {
         "image":"/public/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-4"
+        "price":"60.000"
     },
     {
         "image":"/public/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-5"
+        "price":"60.000"
     },
     {
         "image":"/public/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug":"CAMISETA-JAVASCRIPT"
+        "price":"65.000"
     },
     {
         "image":"/public/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price":"70.000"
     },
     {
         "image":"/public/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price":"60.000"
     },
     {
         "image":"/public/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price":"60.000"
     },
     {
         "image":"/public/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price":"70.000"
     }
 ]

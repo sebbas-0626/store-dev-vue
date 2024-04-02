@@ -12,10 +12,11 @@ import Cards from "../../components/cards.vue";
 import AvatarGallery from '@/components/AvatarGallery.vue';
 
 const avatars = [
-  { src: "/public/images/accesorios/tazas/logotaza.webp" },
-  { src: "/public/images/accesorios/tazas/logotaza.webp" },
+  { src: "/public/images/accesorios/tazas/mug.jpg" },
+  { src: "/public/images/accesorios/tazas/mug.jpg" },
 ];
 </script>
 
 <style>
 </style>
+../../components/Card.vue
