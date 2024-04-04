@@ -8,7 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import Cards from "../../components/cards.vue";
 import AvatarGallery from '@/components/AvatarGallery.vue';
 
 const avatars = [

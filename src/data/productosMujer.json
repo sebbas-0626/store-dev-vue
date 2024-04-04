@@ -1,52 +1,68 @@
 [
     {
-        "image":"/public/images/hombre/js.jpg",
-        "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000"
+        "image": "/public/images/mujer/mjs.jpg",
+        "title": "CAMISETA MUJER JAVASCRIPT",
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/code.jpg",
-        "title": "CAMISETA CODING",
-        "price":"60.000"
+        "image": "/public/images/mujer/mhello.jpg",
+        "title": "CAMISETA MUJER HELLO WORLD",
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
-        "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000"
+        "image": "/public/images/mujer/mdev.jpg",
+        "title": "CAMISETA MUJER JAVASCRIPT",
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/py.jpg",
-        "title": "CAMISETA PYTHON",
-        "price":"60.000"
+        "image": "/public/images/mujer/mcode.png",
+        "title": "CAMISETA MUJER CODING",
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/code.jpg",
-        "title": "CAMISETA CODING",
-        "price":"60.000"
+        "image": "/public/images/mujer/mhello.jpg",
+        "title": "CAMISETA MUJER HELLO WORLD",
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     },
     {
-        "image":"/public/images/hombre/js.jpg",
-        "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000"
+        "image": "/public/images/mujer/mjs.jpg",
+        "title": "CAMISETA MUJER JAVASCRIPT",
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
-        "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000"
+        "image": "/public/images/mujer/mdev.jpg",
+        "title": "CAMISETA MUJER DEVELOPER LIMITED EDITION",
+        "price": "70.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     },
     {
-        "image":"/public/images/hombre/code.jpg",
-        "title": "CAMISETA CODING",
-        "price":"60.000"
+        "image": "/public/images/mujer/mhello.jpg",
+        "title": "CAMISETA MUJER HELLO WORLD",
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     },
     {
-        "image":"/public/images/hombre/py.jpg",
-        "title": "CAMISETA PYTHON",
-        "price":"60.000"
+        "image": "/public/images/mujer/mcode.png",
+        "title": "CAMISETA MUJER CODING",
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
-        "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000"
+        "image": "/public/images/mujer/mdev.jpg",
+        "title": "CAMISETA MUJER DEVELOPER LIMITED EDITION",
+        "price": "70.000",
+        "slug": "CAMISETA-JAVASCRIPT-1"
+
     }
 ]
