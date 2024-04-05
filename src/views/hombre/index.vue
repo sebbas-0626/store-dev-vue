@@ -13,7 +13,6 @@
 </template>
 
 <script setup lang="ts">
-// import Cards from "@/components/Card.vue";
 import Card from "@/components/product/Card.vue";
 import AvatarGallery from '@/components/AvatarGallery.vue';
 import productosHombres from '@/data/productosHombres.json';
