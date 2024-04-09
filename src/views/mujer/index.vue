@@ -24,4 +24,3 @@ const products = productosMujeres;
 
 <style>
 </style>
-../../components/Card.vue

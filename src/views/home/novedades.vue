@@ -4,8 +4,8 @@
       <h1 class="text-xl sm:text-5xl font-bold flex justify-center mt-10">
         NOVEDADES
       </h1>
-      <section class="grid grid-cols-4 gap-4 mx-10 my-10">
-        <CardH class="col-span-2"
+      <section class="grid grid-cols-2  sm:grid-cols-4 gap-4 mx-10 my-10">
+        <CardH class="col-span-2 "
         imageUrl="/public/images/home/homeH01.jpg"
         title="Hombre"
         link=""

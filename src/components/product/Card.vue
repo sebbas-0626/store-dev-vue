@@ -7,7 +7,7 @@
             </div>
         </a>
 
-        <div class="container">
+        <div>
             <div class="bg-black text-white grid grid-cols-5 h-12 text-center py-3" :class="{
                 'animate-fade-in': isVisible,
                 'animate-fade-out': !isVisible,
@@ -20,6 +20,18 @@
                 <a href="">L</a>
                 <a href="">XL</a>
                 <a href="">XXL</a>
+            </div>
+        </div>
+        <!-- TAZAS MUG -->
+        <div>
+            <div class="bg-black text-white  h-12 text-center py-3" :class="{
+                'animate-fade-in': isVisible,
+                'animate-fade-out': !isVisible,
+            }" :style="{
+                opacity: isVisible ? 1 : 0,
+                visibility: isVisible ? 'visible' : 'hidden',
+            }">
+                <p>AÑADIR A MI CESTA</p>
             </div>
         </div>
         <div class="">
@@ -36,10 +48,11 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 interface Product {
-  image: string;
-  title: string;
-  price: string;
-  slug?: string;
+    image: string;
+    title: string;
+    price: string;
+    slug?: string;
+    type?: string;
 }
 
 const isVisible = ref(false);
@@ -50,8 +63,8 @@ onMounted(() => {
         setTimeout(() => {
             isVisible.value = false;
 
-        }, 3000);
-    }, 6000);
+        }, 100000);
+    }, 1000);
 });
 
 const props = defineProps({
