@@ -42,42 +42,42 @@
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/git.png",
+        "image": "/images/accesorios/tazas/git.png",
         "title": "TAZA GIT ",
         "price": "30.000",
         "slug": "TAZA-GIT",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/typescript.png",
+        "image": "/images/accesorios/tazas/typescript.png",
         "title": "TAZA TYPESCRIPT",
         "price": "30.000",
         "slug": "TAZA-TYPESCRIPT",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/js.png",
+        "image": "/images/accesorios/tazas/js.png",
         "title": "TAZA JAVASCRIPT",
         "price": "30.000",
         "slug": "TAZA-JAVASCRIPT",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/laravel.png",
+        "image": "/images/accesorios/tazas/laravel.png",
         "title": "TAZA LARAVEL",
         "price": "30.000",
         "slug": "TAZA-LARAVEL",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/gitHub.png",
+        "image": "/images/accesorios/tazas/gitHub.png",
         "title": "TAZA GITHUB",
         "price": "30.000",
         "slug": "TAZA-GITHUB",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/java.png",
+        "image": "/images/accesorios/tazas/java.png",
         "title": "TAZA JAVA",
         "price": "30.000",
         "slug": "TAZA-JAVA",
