@@ -6,13 +6,13 @@
       </h1>
       <section class="grid grid-cols-2  sm:grid-cols-4 gap-4 mx-10 my-10">
         <CardH class="col-span-2 "
-        imageUrl="/public/images/home/homeH01.jpg"
+        imageUrl="/images/home/homeH01.jpg"
         title="Hombre"
         link=""
         />
         <Card v-for="(product, index) in productosHombres.slice(0, 6)" :key="'hombre-product' + index" :product="product" />
         <CardH class="col-span-2 "
-        imageUrl="/public/images/home/homeM-02.jpg"
+        imageUrl="/images/home/homeM-02.jpg"
         title="Hombre"
         link="" />
 
