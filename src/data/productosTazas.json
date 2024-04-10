@@ -1,41 +1,41 @@
 [
     {
-        "image": "/public/images/accesorios/tazas/personalizar.png",
+        "image": "/images/accesorios/tazas/personalizar.png",
         "title": "TAZA PERSONALIZADA",
         "price": "30.000",
         "slug": "TAZA-GITHUB",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/angular.png",
+        "image": "/images/accesorios/tazas/angular.png",
         "title": "TAZA ANGULAR JS",
         "price": "30.000",
         "slug": "TAZA-ANGULAR-JS",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/react.png",
+        "image": "/images/accesorios/tazas/react.png",
         "title": "TAZA REACT JS",
         "price": "30.000",
         "slug": "TAZA-REACT-JS",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/node.png",
+        "image": "/images/accesorios/tazas/node.png",
         "title": "TAZA NODE JS",
         "price": "30.000",
         "slug": "TAZA-NODE-JS",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/vue.png",
+        "image": "/images/accesorios/tazas/vue.png",
         "title": "TAZA VUE JS",
         "price": "30.000",
         "slug": "TAZA-VUE-JS",
         "type": "mug"
     },
     {
-        "image": "/public/images/accesorios/tazas/php.png",
+        "image": "/images/accesorios/tazas/php.png",
         "title": "TAZA PHP",
         "price": "30.000",
         "slug": "TAZA-PHP",

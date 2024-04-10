@@ -1,60 +1,60 @@
 [
     {
-        "image":"/public/images/hombre/js.jpg",
+        "image":"/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
         "price":"65.000",
         "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/code.jpg",
+        "image":"/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
         "price":"60.000",
         "slug": "CAMISETA-JAVASCRIPT-2"
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
+        "image":"/images/hombre/dev.jpg",
         "title": "CAMISETA JAVASCRIPT",
         "price":"65.000",
         "slug": "CAMISETA-JAVASCRIPT-3"
     },
     {
-        "image":"/public/images/hombre/py.jpg",
+        "image":"/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
         "price":"60.000",
         "slug": "CAMISETA-JAVASCRIPT-4"
     },
     {
-        "image":"/public/images/hombre/code.jpg",
+        "image":"/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
         "price":"60.000",
         "slug": "CAMISETA-JAVASCRIPT-5"
     },
     {
-        "image":"/public/images/hombre/js.jpg",
+        "image":"/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
         "price":"65.000",
         "slug":"CAMISETA-JAVASCRIPT"
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
+        "image":"/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
         "price":"70.000",
         "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/code.jpg",
+        "image":"/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
         "price":"60.000",
         "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/py.jpg",
+        "image":"/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
         "price":"60.000",
         "slug": "CAMISETA-JAVASCRIPT-1"
     },
     {
-        "image":"/public/images/hombre/dev.jpg",
+        "image":"/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
         "price":"70.000",
         "slug": "CAMISETA-JAVASCRIPT-1"
