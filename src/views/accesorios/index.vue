@@ -15,8 +15,8 @@ import Card from "@/components/product/Card.vue";
 import productostazas from '@/data/productosTazas.json';
 
 const avatars = [
-  { src: "/public/images/accesorios/tazas/mug.jpg" },
-  { src: "/public/images/accesorios/tazas/mug.jpg" },
+  { src: "/images/accesorios/tazas/mug.jpg" },
+  { src: "/images/accesorios/tazas/mug.jpg" },
 ];
 
 const products = productostazas.filter(product => product.type === 'mug');

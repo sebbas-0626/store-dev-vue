@@ -18,8 +18,8 @@ import AvatarGallery from '@/components/AvatarGallery.vue';
 import productosHombres from '@/data/productosHombres.json';
 
 const avatars = [
-  { src: "/public/images/hombre/saco1.webp" },
-  { src: "/public/images/hombre/saco2.webp" },
+  { src: "/images/hombre/saco1.webp" },
+  { src: "/images/hombre/saco2.webp" },
 ];
 
 const products = productosHombres;

@@ -15,8 +15,8 @@ import Card from "@/components/product/Card.vue";
 import productosMujeres from '@/data/productosMujer.json';
 
 const avatars = [
-  { src: "/public/images/hombre/saco1.webp" },
-  { src: "/public/images/hombre/saco2.webp" },
+  { src: "/images/hombre/saco1.webp" },
+  { src: "/images/hombre/saco2.webp" },
 ];
 
 const products = productosMujeres;
