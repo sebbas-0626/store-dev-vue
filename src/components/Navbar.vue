@@ -29,18 +29,19 @@ import { ref } from 'vue';
           </a>
         </section>
         <nav :class="{ hidden: !menuOpen }" class="flex flex-col sm:flex sm:items-center sm:flex-row gap-2">
-          <div class="flex flex-wrap">
-            <div class="text-gray-600 hover:bg-gray-200 w-full text-left px-2 rounded hover:text-gray-900">
-              <router-link to="/mujer">MUJER</router-link>
-            </div>
-            <div class="text-gray-600 hover:bg-gray-200 w-full text-left px-2 rounded hover:text-gray-900">
-              <router-link to="/hombre">HOMBRE</router-link>
-            </div>
-            <div class="text-gray-600 hover:bg-gray-200 w-full text-left px-2 rounded hover:text-gray-900">
-              <router-link to="/accesorios">ACCESORIOS</router-link>
-            </div>
-          </div>
-        </nav>
+  <div class="flex flex-wrap">
+    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+      <router-link to="/mujer">MUJER</router-link>
+    </div>
+    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+      <router-link to="/hombre">HOMBRE</router-link>
+    </div>
+    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+      <router-link to="/accesorios">ACCESORIOS</router-link>
+    </div>
+  </div>
+</nav>
+
 
 
         <!-- Botones de acción -->
