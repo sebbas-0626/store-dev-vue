@@ -29,26 +29,27 @@ import { ref } from 'vue';
           </a>
         </section>
         <nav :class="{ hidden: !menuOpen }" class="flex flex-col sm:flex sm:items-center sm:flex-row gap-2">
-  <div class="flex flex-wrap">
-    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
-      <router-link to="/mujer">MUJER</router-link>
-    </div>
-    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
-      <router-link to="/hombre">HOMBRE</router-link>
-    </div>
-    <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
-      <router-link to="/accesorios">ACCESORIOS</router-link>
-    </div>
-  </div>
-</nav>
+          <div class="flex flex-wrap">
+            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+              <router-link to="/mujer">MUJER</router-link>
+            </div>
+            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+              <router-link to="/hombre">HOMBRE</router-link>
+            </div>
+            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+              <router-link to="/accesorios">ACCESORIOS</router-link>
+            </div>
+          </div>
+        </nav>
 
 
 
         <!-- Botones de acción -->
         <div class="flex flex-row mt-3 sm:mt-0 lg:flex-row lg:items-center">
-          <button class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
-            <a href="">INICIAR SESION</a>
-          </button>
+          <router-link to="/login">
+            <a class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">INICIAR SESION</a>
+          </router-link>
+
           <button class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
             <a href="">CESTA</a>
           </button>

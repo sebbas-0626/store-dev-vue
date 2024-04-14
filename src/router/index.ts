@@ -28,6 +28,16 @@ const router = createRouter({
       path: '/producto/:slug',
       name: 'ProductoDetalle',
       component: () => import("../views/producto/index.vue")
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import("../views/login.vue")
+    },
+    {
+      path: '/registro',
+      name: 'registro',
+      component: () => import("../views/registro.vue")
     }
   ]
 })
