@@ -4,7 +4,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import type Registro from '@/components/modules/auth/registro.vue';
+import  Registro from '@/components/modules/auth/registro.vue';
 
 
 </script>

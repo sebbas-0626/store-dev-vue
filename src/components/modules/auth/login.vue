@@ -1,4 +1,3 @@
-
 <template>
     <div>
         <div class="">
@@ -11,7 +10,9 @@
                         </h2>
                         <p class="mt-2 text-base text-gray-600">
                             No tienes una cuenta?
-                            <span class="font-bold">Registrate</span>
+                            <router-link to="/registro">
+                                <a class="font-bold">Registrate</a>
+                            </router-link>
                         </p>
                         <form class="mt-5">
                             <div class="space-y-4">
@@ -21,7 +22,7 @@
                                         Correo Electronico *
                                     </label>
                                     <div class="mt-2">
-                                        <input placeholder="Email" type="email"
+                                        <input placeholder="Correo" type="email"
                                             class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                                             name="email" />
                                     </div>
@@ -33,11 +34,11 @@
                                         </label>
                                     </div>
                                     <div class="mt-2">
-                                        <input placeholder="Password" type="password"
+                                        <input placeholder="Contraseña" type="password"
                                             class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
-                                            name="password" />
+                                            name="Contraseña" />
                                     </div>
-                                    
+
                                 </div>
                                 <div>
                                     <button
