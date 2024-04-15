@@ -14,15 +14,14 @@
                                 <a class="font-bold">Registrate</a>
                             </router-link>
                         </p>
-                        <form class="mt-5">
+                        <form @submit.prevent="login" class="mt-5">
                             <div class="space-y-4">
-
                                 <div>
                                     <label class="text-base font-medium text-gray-900">
                                         Correo Electronico *
                                     </label>
                                     <div class="mt-2">
-                                        <input placeholder="Correo" type="email"
+                                        <input v-model="email" placeholder="Correo" type="email"
                                             class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                                             name="email" />
                                     </div>
@@ -34,16 +33,14 @@
                                         </label>
                                     </div>
                                     <div class="mt-2">
-                                        <input placeholder="Contraseña" type="password"
+                                        <input v-model="password" placeholder="Contraseña" type="password"
                                             class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                                             name="Contraseña" />
                                     </div>
-
                                 </div>
                                 <div>
-                                    <button
-                                        class="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80"
-                                        type="button">
+                                    <button type="submit"
+                                        class="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80">
                                         Iniciar Sesion
                                     </button>
                                 </div>
@@ -53,6 +50,20 @@
                 </div>
             </section>
         </div>
-
     </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const email = ref('');
+const password = ref('');
+
+const login = () => {
+    const formData = {
+        email: email.value,
+        password: password.value
+    };
+    console.log(formData);
+};
+</script>
