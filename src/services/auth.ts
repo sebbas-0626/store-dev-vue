@@ -1,11 +1,12 @@
 import axios from "axios";
-const apiUrl = import.meta.env.PUBLIC_API_URL;
+const apiUrl = import.meta.env.VITE_API_BASE_URL;
 
-
+console.log('api', import.meta.env.VITE_API_BASE_URL);
 const login = async (data: any) => {
-    return await axios.post(`${apiUrl}/login`, data).then((res) => res.data);
-  };
+  return await axios.post(`${apiUrl}/login`, data).then((res) => res.data);
 
-  export default{
-    login,
-  }
+};
+
+export default {
+  login,
+}

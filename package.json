@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@vue/runtime-dom": "^3.4.23",
     "axios": "^1.6.8",
     "sweetalert2": "^11.10.7",
     "vue": "^3.4.21",
