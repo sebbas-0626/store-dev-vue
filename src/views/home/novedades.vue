@@ -6,7 +6,7 @@
       </h1>
       <section class="grid grid-cols-2  sm:grid-cols-4 gap-4 mx-10 my-10">
         <CardH class="col-span-2 "
-        imageUrl="/images/home/homeH01.jpg"
+        imageUrl="/images/home/homeb.jpg"
         title="Hombre"
         link=""
         />

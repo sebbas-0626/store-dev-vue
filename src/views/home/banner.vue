@@ -1,7 +1,7 @@
 .<template>
   <div>
     <section>
-        <img src="/images/home/nest.webp" class="w-full" alt="">
+        <img src="/images/home/banner.png" class="w-full" alt="">
     </section>
   </div>
 </template>
