@@ -25,7 +25,12 @@ import { ref } from 'vue';
           </button>
           <!-- Logo container-->
           <a href="/">
-            <h1 class="text-3xl text-black font-bold mx-4">DEV</h1>
+            <!-- <h1 class="text-3xl text-black font-bold mx-4">DEV</h1> -->
+            <div class="flex">
+
+              <img src="/public/images/logoStore.png" class="w-16  mx-2" alt=""> 
+              <h1 class="font-bold text-4xl ">DEV</h1>
+            </div>
           </a>
         </section>
         <nav :class="{ hidden: !menuOpen }" class="flex flex-col sm:flex sm:items-center sm:flex-row gap-2">
