@@ -12,7 +12,7 @@
         />
         <Card v-for="(product, index) in productosHombres.slice(0, 6)" :key="'hombre-product' + index" :product="product" />
         <CardH class="col-span-2 "
-        imageUrl="/images/home/homeM-02.jpg"
+        imageUrl="/images/home/homeb.jpg"
         title="Hombre"
         link="" />
 
