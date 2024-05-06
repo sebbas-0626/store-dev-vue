@@ -43,7 +43,7 @@
             entiendo la
             información sobre el uso de mis datos personales explicada en la <a target="_blank" href="">política de
               privacidad</a> y
-            acepto recibir comunicaciones comerciales personalizadas de CODEV MONKEY a través del email y otros
+            acepto recibir comunicaciones comerciales personalizadas a través del email y otros
             medios.</label>
         </div>
 
