@@ -1,4 +1,3 @@
-import { ref } from 'vue';
 <template>
   <div>
     <div class="flex justify-center bg-black py-1">
@@ -28,14 +27,14 @@ import { ref } from 'vue';
             <!-- <h1 class="text-3xl text-black font-bold mx-4">DEV</h1> -->
             <div class="flex">
 
-              <img src="/public/images/logoStore.png" class="w-16  mx-2" alt=""> 
+              <img src="/public/images/logoStore.png" class="w-16  mx-2" alt="">
               <h1 class="font-bold text-4xl ">DEV</h1>
             </div>
           </a>
         </section>
         <nav :class="{ hidden: !menuOpen }" class="flex flex-col sm:flex sm:items-center sm:flex-row gap-2">
           <div class="flex flex-wrap">
-            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900 transition duration-150 ">
               <router-link to="/mujer">MUJER</router-link>
             </div>
             <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
@@ -47,17 +46,18 @@ import { ref } from 'vue';
           </div>
         </nav>
 
-
-
         <!-- Botones de acción -->
         <div class="flex flex-row mt-3 sm:mt-0 lg:flex-row lg:items-center">
           <router-link to="/login">
             <a class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">INICIAR SESION</a>
           </router-link>
 
-          <button class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
-            <a href="">CESTA</a>
-          </button>
+          <button @click="showCartModal" class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
+  <a href="">CESTA</a>
+</button>
+
+          <!-- modal cesta -->
+          <ModalComponent v-if="cartOpen" @close="closeCartModal"/>
         </div>
       </div>
     </nav>
@@ -66,11 +66,21 @@ import { ref } from 'vue';
 
 <script setup lang="ts">
 import { ref } from "vue";
+import ModalComponent from "./modules/ModalComponent.vue";
 
 const menuOpen = ref(false);
+const cartOpen = ref(false);
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
+};
+
+const showCartModal = () => {
+  cartOpen.value = true;
+};
+
+const closeCartModal = () => {
+  cartOpen.value = false;
 };
 </script>
 <style></style>
