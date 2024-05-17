@@ -34,30 +34,38 @@
         </section>
         <nav :class="{ hidden: !menuOpen }" class="flex flex-col sm:flex sm:items-center sm:flex-row gap-2">
           <div class="flex flex-wrap">
-            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900 transition duration-150 ">
+            <div class="text-gray-950 hover:bg-gray-200 px-10 rounded hover:text-gray-900    ">
               <router-link to="/mujer">MUJER</router-link>
             </div>
-            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+            <div class="text-gray-950 hover:bg-gray-200 px-10 rounded hover:text-gray-900">
               <router-link to="/hombre">HOMBRE</router-link>
             </div>
-            <div class="text-gray-600 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
+            <div class="text-gray-950 hover:bg-gray-200 px-2 rounded hover:text-gray-900">
               <router-link to="/accesorios">ACCESORIOS</router-link>
             </div>
           </div>
         </nav>
 
         <!-- Botones de acción -->
-        <div class="flex flex-row mt-3 sm:mt-0 lg:flex-row lg:items-center">
+        <div class="flex items-center mt-3 sm:mt-0 lg:flex-row lg:items-center">
           <router-link to="/login">
             <a class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">INICIAR SESION</a>
           </router-link>
 
-          <button @click="showCartModal" class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
-  <a href="">CESTA</a>
-</button>
+
+
+          <button @click="showCartModal"
+            class="text-gray-600 hover:bg-gray-200 text-left px-2 rounded hover:text-gray-900">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+              <path fill="currentColor"
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607L1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479l9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4a2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4a2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2a1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2a1 1 0 0 1 0-2" />
+            </svg> -->
+            <h1>CESTA</h1>
+
+          </button>
 
           <!-- modal cesta -->
-          <ModalComponent v-if="cartOpen" @close="closeCartModal"/>
+          <ModalComponent v-show="cartOpen" @close="closeCartModal" />
         </div>
       </div>
     </nav>
