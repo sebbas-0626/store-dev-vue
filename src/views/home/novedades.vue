@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1 class="text-xl sm:text-5xl font-bold flex justify-center mt-10">
+      <h1 class="text-xl sm:text-4xl font-bold flex justify-center mt-10">
         NOVEDADES
       </h1>
       <section class="grid grid-cols-2  sm:grid-cols-4 gap-4 mx-10 my-10">
@@ -13,7 +13,7 @@
         <Card v-for="(product, index) in productosHombres.slice(0, 6)" :key="'hombre-product' + index" :product="product" />
         <CardH class="col-span-2 "
         imageUrl="/images/home/homeb.jpg"
-        title="Hombre"
+        title="Mujer"
         link="" />
 
         <Card  v-for="(product, index) in productosMujer.slice(0, 6)" :key="'mujer-product' + index" :product="product" />

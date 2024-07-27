@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="flex justify-center bg-black py-1">
-      <p class="text-white">welcome to the Dev store</p>
-      <!-- <a href="" class="text-white font-bold">ES</a>
-      <a href="" class="text-white px-4 font-bold">EN</a> -->
+    <div class="grid grid-cols-2 bg-black py-1">
+      <p class="text-white flex justify-end">welcome to the Dev store</p>
+      <div class="flex justify-end mr-6">
+        <p class="text-white mx-2"> ES</p>
+        <p class="text-white">EN</p>
+      </div>
     </div>
 
     <!-- Navbar Start -->

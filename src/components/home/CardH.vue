@@ -1,11 +1,11 @@
 <template>
     <div>
-      <div class="w-11/12 mt-3 bg-black">
+      <div class="w-11/12 mt-3 bg-black rounded-lg md:block hidden">
         <a :href="link" class="gridwide" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
           <div class="image-container">
             <h1 class="text-4xl my-4">{{ title }}</h1>
           </div>
-          <img :src="imageUrl" class="w-full h-auto" alt="Image">
+          <img :src="imageUrl" class="w-full h-auto rounded-b-lg" alt="Image">
         </a>
       </div>
     </div>
