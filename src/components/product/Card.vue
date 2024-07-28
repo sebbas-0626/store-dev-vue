@@ -7,7 +7,7 @@
             </div>
         </a>
 
-        <!-- <div>
+        <div>
             <div class="bg-black text-white grid grid-cols-5 h-12 text-center py-3" :class="{
                 'animate-fade-in': isVisible,
                 'animate-fade-out': !isVisible,
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div>
-            <div class="bg-black text-white  h-12 text-center py-3" :class="{
+            <!-- <div class="bg-black text-white  h-12 text-center py-3" :class="{
                 'animate-fade-in': isVisible,
                 'animate-fade-out': !isVisible,
             }" :style="{
@@ -31,8 +31,8 @@
                 visibility: isVisible ? 'visible' : 'hidden',
             }">
                 <p>AÑADIR A MI CESTA</p>
-            </div>
-        </div> -->
+            </div> -->
+        </div>
         <div class="">
             <div class="mx-5 ">
                 <a href="">{{ product.title }}</a>
