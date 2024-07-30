@@ -32,12 +32,19 @@
             }">
                 <p>AÑADIR A MI CESTA</p>
             </div> -->
+
+            <!-- Color options -->
+
+            <div
+                class="bg-black hover:bg-gray-700 rounded-full w-4 h-4 mx-6 mt-6 border-solid border-2 border-stone-400">
+            </div>
+
         </div>
-        <div class="">
-            <div class="mx-5 ">
+        <div class="h-26">
+            <div class="mx-5 mt-3">
                 <a href="">{{ product.title }}</a>
             </div>
-            <div class="font-bold mx-5">
+            <div class="font-bold mx-5 mt-5">
                 <span class="">{{ product.price }}<span></span></span>
             </div>
         </div>
