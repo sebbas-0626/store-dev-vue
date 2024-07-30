@@ -3,11 +3,11 @@
         <a href="" class="block">
             <img class="w-full" :src="product.image" alt="Camiseta Python" />
             <div class="bg-black w-16 sm:w-16 m-2 sm:m-2 flex justify-center rounded-sm absolute top-0 left-0">
-                <span class="text-white text-xs">NOVEDAD</span>
+                <!-- <span class="text-white text-xs">NOVEDAD</span> -->
             </div>
         </a>
 
-        <div>
+        <!-- <div>
             <div class="bg-black text-white grid grid-cols-5 h-12 text-center py-3" :class="{
                 'animate-fade-in': isVisible,
                 'animate-fade-out': !isVisible,
@@ -21,7 +21,7 @@
                 <a href="">XL</a>
                 <a href="">XXL</a>
             </div>
-        </div>
+        </div> -->
         <div>
             <!-- <div class="bg-black text-white  h-12 text-center py-3" :class="{
                 'animate-fade-in': isVisible,
