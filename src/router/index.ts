@@ -38,6 +38,12 @@ const router = createRouter({
       path: '/registro',
       name: 'registro',
       component: () => import("../views/registro.vue")
+    },
+    // cuenta usuario
+    {
+      path: '/mi-cuenta',
+      name: 'mi-cuenta',
+      component: () => import('../views/mi-cuenta/index.vue')
     }
   ]
 })

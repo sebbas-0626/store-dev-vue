@@ -39,9 +39,10 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <button type="submit"
+                                    <button type="submit" :disabled="loading"
                                         class="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80">
-                                        Iniciar Sesion
+                                        <span v-if="loading">Cargando...</span>
+                                        <span v-else>Iniciar Sesión</span>
                                     </button>
                                 </div>
                             </div>
@@ -57,36 +58,38 @@
 import { ref } from "vue";
 import auth from "@/services/auth";
 import Swal from "sweetalert2";
+import { useRouter } from 'vue-router';
 
 const loading = ref(false);
+const router = useRouter();
 
 const initialData = {
-  email: '',
-  password: '',
+    email: '',
+    password: '',
 };
-const dataForm = ref({...initialData});
+const dataForm = ref({ ...initialData });
 
 const onSubmit = () => {
-  loading.value = true;
-  auth.login(dataForm.value).then((response) => {
-    dataForm.value = {...initialData};
-    
-    Swal.fire({
-      icon: "success",
-      title: "Correcto",
-      text: response.message,
+    loading.value = true;
+    auth.login(dataForm.value).then((response) => {
+        dataForm.value = { ...initialData };
+
+        Swal.fire({
+            icon: "success",
+            title: "Correcto",
+            text: response.message,
+        });
+        // Redirigir a la vista "Mi Cuenta" después del inicio de sesión exitoso
+        router.push({ name: 'mi-cuenta' });
+    }).catch((error) => {
+        const data = error?.response?.data;
+        Swal.fire({
+            icon: "error",
+            title: "Opss..",
+            text: data?.message ?? 'Ocurrio un error inesperado',
+        });
+    }).finally(() => {
+        loading.value = false;
     });
-  }).catch((error) => {
-    const data = error?.response?.data;
-    Swal.fire({
-      icon: "error",
-      title: "Opss..",
-      text: data?.message ?? 'Ocurrio un error inesperado',
-    });
-  }).finally(() => {
-    loading.value = false;
-  });
 }
 </script>
-
-
