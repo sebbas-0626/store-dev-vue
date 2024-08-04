@@ -98,7 +98,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-// import ModalComponent from "./modules/ModalComponent.vue";
+import ModalComponent from "./modules/ModalComponent.vue";
 
 const menuOpen = ref(false);
 const cartOpen = ref(false);
