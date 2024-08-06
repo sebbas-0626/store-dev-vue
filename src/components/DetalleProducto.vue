@@ -1,5 +1,9 @@
 <template>
-  <div class="bg-black">detalle prducto </div>
+  <div class="bg-black">
+    <h1>detalle prducto</h1> 
+
+
+  </div>
 
 </template>
 
