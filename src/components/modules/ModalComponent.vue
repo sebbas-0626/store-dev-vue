@@ -3,7 +3,7 @@
     <div class="bg-white p-6 rounded-lg w-96">
       <h2 class="text-xl font-semibold mb-4">{{ title }}</h2>
       <div>
-        <div class="bg-gray-200 h-32 flex justify-center grid grid-cols-2">
+        <div class="bg-gray-200 h-32  justify-center grid grid-cols-2">
           <div class="">
             <img class="img-fluid w-20
             " src="https://codevmonkey.com/wp-content/uploads/product/178d7500924850037d94136b92ae3909.jpg"
