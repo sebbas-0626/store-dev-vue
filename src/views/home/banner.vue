@@ -1,8 +1,7 @@
-.<template>
+<template>
   <div>
-    <section>
-        <img src="/images/home/banner.png" class="w-full" alt="">
-        <!-- cambiar la img del banner  -->
+    <section class="w-full h-[400px] overflow-hidden">
+      <img src="/images/home/camiseta-banner.jpg" class="w-full h-full object-cover" alt="Banner camiseta">
     </section>
   </div>
 </template>
@@ -13,6 +12,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
