@@ -2,7 +2,7 @@
      <div class="flex border-solid border-slate-600 mx-6 p-4 space-x-4">
     <!-- Columna izquierda con botones -->
     <div class="text-white  p-4 ">
-      <ul class="space-y-2">
+      <!-- <ul class="space-y-2">
                 <button class="Btn">
                     Escritorio
                 </button> <button class="Btn">
@@ -17,7 +17,7 @@
                     Salir
                 </button>
                
-            </ul>
+            </ul> -->
         </div>
         <div class="text-white bg-black">
             vistas
