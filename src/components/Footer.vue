@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <footer>
     <div class="bg-white sm:grid grid-cols-4 gap-4 text-black py-8 border-t-2 border-gray-300">
 
@@ -62,4 +62,94 @@
 
 <script setup lang="ts"></script>
 
-<style></style>
+<style></style> -->
+
+<template>
+  <footer class="bg-muted/30 border-t mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Logo y descripción -->
+        <div class="space-y-4">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            StyleShop
+          </h3>
+          <p class="text-muted-foreground text-sm">
+            {{ t.footerDescription }}
+          </p>
+          <div class="flex space-x-4">
+            <Facebook class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
+            <Instagram class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
+            <Twitter class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
+          </div>
+        </div>
+
+        <!-- Enlaces rápidos -->
+        <div class="space-y-4">
+          <h4 class="font-semibold">{{ t.quickLinks }}</h4>
+          <div class="space-y-2">
+            <RouterLink to="/" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              {{ t.home }}
+            </RouterLink>
+            <RouterLink to="/men" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              {{ t.men }}
+            </RouterLink>
+            <RouterLink to="/women" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              {{ t.women }}
+            </RouterLink>
+            <RouterLink to="/accessories"
+              class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              {{ t.accessories }}
+            </RouterLink>
+          </div>
+        </div>
+
+        <!-- Atención al cliente -->
+        <div class="space-y-4">
+          <h4 class="font-semibold">{{ t.customerService }}</h4>
+          <div class="space-y-2">
+            <p class="text-muted-foreground text-sm">{{ t.aboutUs }}</p>
+            <p class="text-muted-foreground text-sm">{{ t.shippingInfo }}</p>
+            <p class="text-muted-foreground text-sm">{{ t.returnPolicy }}</p>
+            <p class="text-muted-foreground text-sm">{{ t.faq }}</p>
+          </div>
+        </div>
+
+        <!-- Contacto -->
+        <div class="space-y-4">
+          <h4 class="font-semibold">{{ t.contact }}</h4>
+          <div class="space-y-2">
+            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+              <Mail class="h-4 w-4" />
+              <span>info@styleshop.com</span>
+            </div>
+            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+              <Phone class="h-4 w-4" />
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+              <MapPin class="h-4 w-4" />
+              <span>123 Fashion St, NYC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t mt-8 pt-8 text-center">
+        <p class="text-muted-foreground text-sm">
+          © 2024 StyleShop. {{ t.allRightsReserved }}
+        </p>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script lang="ts" setup>
+import { computed } from 'vue'
+import { useTheme } from '@/composables/useTheme'
+import { translations } from '@/utils/translations'
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-vue-next'
+
+// Suponiendo que `useTheme` retorna un reactive `language`
+const { language } = useTheme()
+const t = computed(() => translations[language.value])
+</script>
