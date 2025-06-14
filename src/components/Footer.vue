@@ -70,9 +70,10 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- Logo y descripción -->
         <div class="space-y-4">
-          <h3 class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            StyleShop
-          </h3>
+         <h3 class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-600 bg-clip-text text-transparent">
+  <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="">
+  <span class="ml-2">DEV</span>
+</h3>
           <p class="text-muted-foreground text-sm">
             {{ t.footerDescription }}
           </p>
@@ -146,8 +147,9 @@
 <script lang="ts" setup>
 import { computed } from 'vue'
 import { useTheme } from '@/composables/useTheme'
-import { translations } from '@/utils/translations'
+
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-vue-next'
+import { translations } from '@/utils/translations'
 
 // Suponiendo que `useTheme` retorna un reactive `language`
 const { language } = useTheme()
