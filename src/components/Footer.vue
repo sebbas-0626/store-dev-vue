@@ -138,6 +138,7 @@
       <div class="border-t mt-8 pt-8 text-center">
         <p class="text-muted-foreground text-sm">
           © 2024 StyleShop. {{ t.allRightsReserved }}
+          
         </p>
       </div>
     </div>
