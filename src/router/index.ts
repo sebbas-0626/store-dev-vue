@@ -32,12 +32,12 @@ const router = createRouter({
     {
       path: '/login',
       name: 'login',
-      component: () => import("../views/login.vue")
+      component: () => import("../views/auth/login.vue")
     },
     {
       path: '/registro',
       name: 'registro',
-      component: () => import("../views/registro.vue")
+      component: () => import("../views/auth/registro.vue")
     },
     // cuenta usuario
     {
