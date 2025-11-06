@@ -13,17 +13,7 @@
       <div class="border-b-2 border-slate-300 flex justify-between py-4">
         <!-- Menu hamburguesa -->
         <section class="flex justify-between items-center">
-          <button id="menuBtn" class="text-gray-700 sm:hidden" @click="toggleMenu">
-            <svg v-if="!menuOpen" class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-              width="100" height="100" viewBox="0 0 50 50">
-              <path
-                d="M 3 8 A 2.0002 2.0002 0 1 0 3 12 L 47 12 A 2.0002 2.0002 0 1 0 47 8 L 3 8 z M 3 23 A 2.0002 2.0002 0 1 0 3 27 L 47 27 A 2.0002 2.0002 0 1 0 47 23 L 3 23 z M 3 38 A 2.0002 2.0002 0 1 0 3 42 L 47 42 A 2.0002 2.0002 0 1 0 47 38 L 3 38 z">
-              </path>
-            </svg>
-            <svg v-else class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M3 18h18v-2H3v2zM3 13h18v-2H3v2zM3 6v2h18V6H3z"></path>
-            </svg>
-          </button>
+          <MenuButton :is-open="menuOpen" @toggle="toggleMenu" />
            <!-- Logo container-->
            <a href="/">
             <div class="flex mx-14">
@@ -99,6 +89,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import ModalComponent from "./modules/ModalComponent.vue";
+import MenuButton from "./MenuButton.vue";
 
 const menuOpen = ref(false);
 const cartOpen = ref(false);
@@ -113,6 +104,11 @@ const showCartModal = () => {
 
 const closeCartModal = () => {
   cartOpen.value = false;
+};
+
+const handleLogin = () => {
+  // Login logic here
+  console.log("que hces ",handleLogin);
 };
 </script>
 <style></style>
