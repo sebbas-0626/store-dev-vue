@@ -1,62 +1,382 @@
 [
     {
-        "image":"/images/hombre/js.jpg",
+        "image": "/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT-1",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/code.jpg",
+        "image": "/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-2"
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-2",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/dev.jpg",
+        "image": "/images/hombre/dev.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug": "CAMISETA-JAVASCRIPT-3"
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT-3",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/py.jpg",
+        "image": "/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-4"
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-4",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/code.jpg",
+        "image": "/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-5"
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-5",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/js.jpg",
+        "image": "/images/hombre/js.jpg",
         "title": "CAMISETA JAVASCRIPT",
-        "price":"65.000",
-        "slug":"CAMISETA-JAVASCRIPT"
+        "price": "65.000",
+        "slug": "CAMISETA-JAVASCRIPT",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/dev.jpg",
+        "image": "/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price": "70.000",
+        "slug": "CAMISETA-JAVASCRIPT-1",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/code.jpg",
+        "image": "/images/hombre/code.jpg",
         "title": "CAMISETA CODING",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/py.jpg",
+        "image": "/images/hombre/py.jpg",
         "title": "CAMISETA PYTHON",
-        "price":"60.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price": "60.000",
+        "slug": "CAMISETA-JAVASCRIPT-1",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     },
     {
-        "image":"/images/hombre/dev.jpg",
+        "image": "/images/hombre/dev.jpg",
         "title": "CAMISETA DEVELOPER LIMITED EDITION",
-        "price":"70.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
+        "price": "70.000",
+        "slug": "CAMISETA-JAVASCRIPT-1",
+        "sizes": [
+            {
+                "name": "S",
+                "stock": 10
+            },
+            {
+                "name": "M",
+                "stock": 10
+            },
+            {
+                "name": "L",
+                "stock": 10
+            },
+            {
+                "name": "XL",
+                "stock": 10
+            }
+        ],
+        "colors": [
+            {
+                "name": "Amarillo",
+                "class": "bg-yellow-500"
+            },
+            {
+                "name": "Negro",
+                "class": "bg-black"
+            },
+            {
+                "name": "Gris",
+                "class": "bg-gray-400"
+            }
+        ]
     }
 ]
