@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import Footer from './components/Footer.vue'
-import Navbar from './components/Navbar.vue'
-
+import { RouterView } from 'vue-router'
+import Layout from './components/layout/Layout.vue'
 </script>
 
 <template>
-  <Navbar/>
-  <RouterLink to="/"></RouterLink>
-  <RouterView />
-
-  <Footer/>
-  
+  <Layout>
+    <RouterView />
+  </Layout>
 </template>
 
-<style scoped>
-
+<style>
+/* Estilos globales */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 </style>
