@@ -3,66 +3,166 @@
         "image": "/images/mujer/mjs.jpg",
         "title": "CAMISETA MUJER JAVASCRIPT",
         "price": "65.000",
-        "slug": "CAMISETA-MUJER-JAVASCRIPT"
+        "slug": "CAMISETA-MUJER-JAVASCRIPT",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Amarillo", "class": "bg-yellow-500" },
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mhello.jpg",
         "title": "CAMISETA MUJER HELLO WORLD",
         "price": "60.000",
-        "slug": "CAMISETA-MUJER-HELLO-WORLD"
+        "slug": "CAMISETA-MUJER-HELLO-WORLD",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mdev.jpg",
         "title": "CAMISETA MUJER JAVASCRIPT",
         "price": "65.000",
-        "slug": "CAMISETA-MUJER-DEVELOPER-WOMAN"
+        "slug": "CAMISETA-MUJER-DEVELOPER-WOMAN",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Gris", "class": "bg-gray-400" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mcode.png",
         "title": "CAMISETA MUJER CODING",
         "price": "60.000",
-        "slug": "CAMISETA-MUJER-CODING"
+        "slug": "CAMISETA-MUJER-CODING",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Blanco", "class": "bg-white" }
+        ]
     },
     {
         "image": "/images/mujer/mhello.jpg",
         "title": "CAMISETA MUJER HELLO WORLD",
         "price": "60.000",
-        "slug": "CAMISETA-MUJER-HELLO-WORLD"
-
+        "slug": "CAMISETA-MUJER-HELLO-WORLD-2",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mjs.jpg",
         "title": "CAMISETA MUJER JAVASCRIPT",
         "price": "65.000",
-        "slug": "CAMISETA-MUJER-JAVASCRIPT"
-
+        "slug": "CAMISETA-MUJER-JAVASCRIPT-2",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Amarillo", "class": "bg-yellow-500" },
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mdev.jpg",
         "title": "CAMISETA MUJER DEVELOPER LIMITED EDITION",
         "price": "70.000",
-        "slug": "CAMISETA-MUJER-DEVELOPER-WOMAN"
-
+        "slug": "CAMISETA-MUJER-DEVELOPER-WOMAN-2",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Gris", "class": "bg-gray-400" }
+        ]
     },
     {
         "image": "/images/mujer/mhello.jpg",
         "title": "CAMISETA MUJER HELLO WORLD",
         "price": "60.000",
-        "slug": "CAMISETA-MUJER-HELLO-WORLD"
-
+        "slug": "CAMISETA-MUJER-HELLO-WORLD-3",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Rosa", "class": "bg-pink-400" }
+        ]
     },
     {
         "image": "/images/mujer/mcode.png",
         "title": "CAMISETA MUJER CODING",
         "price": "60.000",
-        "slug": "CAMISETA-MUJER-CODING"
-
+        "slug": "CAMISETA-MUJER-CODING-2",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Blanco", "class": "bg-white" }
+        ]
     },
     {
         "image": "/images/mujer/mdev.jpg",
         "title": "CAMISETA MUJER DEVELOPER LIMITED EDITION",
         "price": "70.000",
-        "slug": "CAMISETA-JAVASCRIPT-1"
-
+        "slug": "CAMISETA-MUJER-DEVELOPER-WOMAN-3",
+        "sizes": [
+            { "name": "S", "stock": 10 },
+            { "name": "M", "stock": 10 },
+            { "name": "L", "stock": 10 },
+            { "name": "XL", "stock": 10 }
+        ],
+        "colors": [
+            { "name": "Negro", "class": "bg-black" },
+            { "name": "Gris", "class": "bg-gray-400" }
+        ]
     }
 ]

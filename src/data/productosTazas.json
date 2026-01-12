@@ -3,84 +3,132 @@
         "image": "/images/accesorios/tazas/personalizar.png",
         "title": "TAZA PERSONALIZADA",
         "price": "30.000",
-        "slug": "TAZA-GITHUB",
-        "type": "mug"
+        "slug": "TAZA-PERSONALIZADA",
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/angular.png",
         "title": "TAZA ANGULAR JS",
         "price": "30.000",
         "slug": "TAZA-ANGULAR-JS",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/react.png",
         "title": "TAZA REACT JS",
         "price": "30.000",
         "slug": "TAZA-REACT-JS",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/node.png",
         "title": "TAZA NODE JS",
         "price": "30.000",
         "slug": "TAZA-NODE-JS",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/vue.png",
         "title": "TAZA VUE JS",
         "price": "30.000",
         "slug": "TAZA-VUE-JS",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/php.png",
         "title": "TAZA PHP",
         "price": "30.000",
         "slug": "TAZA-PHP",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/git.png",
-        "title": "TAZA GIT ",
+        "title": "TAZA GIT",
         "price": "30.000",
         "slug": "TAZA-GIT",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/typescript.png",
         "title": "TAZA TYPESCRIPT",
         "price": "30.000",
         "slug": "TAZA-TYPESCRIPT",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/js.png",
         "title": "TAZA JAVASCRIPT",
         "price": "30.000",
         "slug": "TAZA-JAVASCRIPT",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/laravel.png",
         "title": "TAZA LARAVEL",
         "price": "30.000",
         "slug": "TAZA-LARAVEL",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/gitHub.png",
         "title": "TAZA GITHUB",
         "price": "30.000",
         "slug": "TAZA-GITHUB",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     },
     {
         "image": "/images/accesorios/tazas/java.png",
         "title": "TAZA JAVA",
         "price": "30.000",
         "slug": "TAZA-JAVA",
-        "type": "mug"
+        "type": "mug",
+        "colors": [
+            { "name": "Blanco", "class": "bg-white" },
+            { "name": "Negro", "class": "bg-black" }
+        ]
     }
 ]
