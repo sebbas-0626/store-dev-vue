@@ -29,3 +29,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+# .md
+PROJECT_IMPROVEMENTS.md
+PROJECT_STRUCTURE.md
