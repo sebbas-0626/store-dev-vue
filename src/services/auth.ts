@@ -14,4 +14,5 @@ const login = async (data: any) => {
 export default {
   login,
   register
+  
 }
