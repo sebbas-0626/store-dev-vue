@@ -71,17 +71,24 @@
         <!-- Logo y descripción -->
         <div class="space-y-4">
           <h3
-            class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-950 bg-clip-text text-transparent">
-            <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="">
+            class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-950 bg-clip-text text-transparent"
+          >
+            <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="" />
             <span class="ml-2">DEV</span>
           </h3>
           <p class="text-muted-foreground text-sm">
             {{ t.footerDescription }}
           </p>
           <div class="flex space-x-4">
-            <Facebook class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
-            <Instagram class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
-            <Twitter class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
+            <Facebook
+              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
+            />
+            <Instagram
+              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
+            />
+            <Twitter
+              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
+            />
           </div>
         </div>
 
@@ -89,17 +96,28 @@
         <div class="space-y-4">
           <h4 class="font-semibold">{{ t.quickLinks }}</h4>
           <div class="space-y-2">
-            <RouterLink to="/" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+            <RouterLink
+              to="/"
+              class="block text-muted-foreground hover:text-primary transition-colors text-sm"
+            >
               {{ t.home }}
             </RouterLink>
-            <RouterLink to="/men" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+            <RouterLink
+              to="/men"
+              class="block text-muted-foreground hover:text-primary transition-colors text-sm"
+            >
               {{ t.men }}
             </RouterLink>
-            <RouterLink to="/women" class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+            <RouterLink
+              to="/women"
+              class="block text-muted-foreground hover:text-primary transition-colors text-sm"
+            >
               {{ t.women }}
             </RouterLink>
-            <RouterLink to="/accessories"
-              class="block text-muted-foreground hover:text-primary transition-colors text-sm">
+            <RouterLink
+              to="/accessories"
+              class="block text-muted-foreground hover:text-primary transition-colors text-sm"
+            >
               {{ t.accessories }}
             </RouterLink>
           </div>
@@ -120,15 +138,21 @@
         <div class="space-y-4">
           <h4 class="font-semibold">{{ t.contact }}</h4>
           <div class="space-y-2">
-            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+            <div
+              class="flex items-center space-x-2 text-sm text-muted-foreground"
+            >
               <Mail class="h-4 w-4" />
               <span>info@styleshop.com</span>
             </div>
-            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+            <div
+              class="flex items-center space-x-2 text-sm text-muted-foreground"
+            >
               <Phone class="h-4 w-4" />
               <span>+1 (555) 123-4567</span>
             </div>
-            <div class="flex items-center space-x-2 text-sm text-muted-foreground">
+            <div
+              class="flex items-center space-x-2 text-sm text-muted-foreground"
+            >
               <MapPin class="h-4 w-4" />
               <span>123 Fashion St, NYC</span>
             </div>
@@ -138,8 +162,7 @@
 
       <div class="border-t mt-8 pt-8 text-center">
         <p class="text-muted-foreground text-sm">
-          © 2024 StyleShop. {{ t.allRightsReserved }}
-
+          © 2026 DevStyleShop. {{ t.allRightsReserved }}
         </p>
       </div>
     </div>
@@ -147,13 +170,20 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue'
-import { useTheme } from '@/composables/useTheme'
+import { computed } from "vue";
+import { useTheme } from "@/composables/useTheme";
 
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-vue-next'
-import { translations } from '@/utils/translations'
+import {
+  Facebook,
+  Instagram,
+  Twitter,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-vue-next";
+import { translations } from "@/utils/translations";
 
 // Suponiendo que `useTheme` retorna un reactive `language`
-const { language } = useTheme()
-const t = computed(() => translations[language.value])
+const { language } = useTheme();
+const t = computed(() => translations[language.value]);
 </script>
