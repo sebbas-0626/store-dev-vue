@@ -1,12 +1,8 @@
 import axios from "axios";
 const apiUrl = import.meta.env.VITE_API_BASE_URL;
 
-// Define a type for authentication payloads
-interface AuthPayload {
-  email: string;
-  password: string;
-  // Add other fields if needed
-}
+// Import the AuthPayload interface from a separate file
+import type { AuthPayload } from "../types/AuthPayload";
 
 const register = async (data: AuthPayload) => {
   return await axios.post(`${apiUrl}/register`, data).then((res) => res.data);
@@ -21,5 +17,5 @@ const login = async (data: AuthPayload) => {
 export default {
   login,
   register
-  
+
 }
