@@ -73,7 +73,11 @@
           <h3
             class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-950 bg-clip-text text-transparent"
           >
-            <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="" />
+            <img
+              src="/public/images/logoStore.png"
+              class="w-16 mx-1"
+              alt=""
+            >
             <span class="ml-2">DEV</span>
           </h3>
           <p class="text-muted-foreground text-sm">
@@ -94,7 +98,9 @@
 
         <!-- Enlaces rápidos -->
         <div class="space-y-4">
-          <h4 class="font-semibold">{{ t.quickLinks }}</h4>
+          <h4 class="font-semibold">
+            {{ t.quickLinks }}
+          </h4>
           <div class="space-y-2">
             <RouterLink
               to="/"
@@ -125,18 +131,30 @@
 
         <!-- Atención al cliente -->
         <div class="space-y-4">
-          <h4 class="font-semibold">{{ t.customerService }}</h4>
+          <h4 class="font-semibold">
+            {{ t.customerService }}
+          </h4>
           <div class="space-y-2">
-            <p class="text-muted-foreground text-sm">{{ t.aboutUs }}</p>
-            <p class="text-muted-foreground text-sm">{{ t.shippingInfo }}</p>
-            <p class="text-muted-foreground text-sm">{{ t.returnPolicy }}</p>
-            <p class="text-muted-foreground text-sm">{{ t.faq }}</p>
+            <p class="text-muted-foreground text-sm">
+              {{ t.aboutUs }}
+            </p>
+            <p class="text-muted-foreground text-sm">
+              {{ t.shippingInfo }}
+            </p>
+            <p class="text-muted-foreground text-sm">
+              {{ t.returnPolicy }}
+            </p>
+            <p class="text-muted-foreground text-sm">
+              {{ t.faq }}
+            </p>
           </div>
         </div>
 
         <!-- Contacto -->
         <div class="space-y-4">
-          <h4 class="font-semibold">{{ t.contact }}</h4>
+          <h4 class="font-semibold">
+            {{ t.contact }}
+          </h4>
           <div class="space-y-2">
             <div
               class="flex items-center space-x-2 text-sm text-muted-foreground"
