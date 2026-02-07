@@ -73,11 +73,7 @@
           <h3
             class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-950 bg-clip-text text-transparent"
           >
-            <img
-              src="/public/images/logoStore.png"
-              class="w-16 mx-1"
-              alt=""
-            >
+            <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="" />
             <span class="ml-2">DEV</span>
           </h3>
           <p class="text-muted-foreground text-sm">
