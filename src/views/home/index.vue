@@ -1,7 +1,7 @@
 <template>
   <!-- <h1>secciones </h1> -->
   <banner />
-  <novedadesVue/>
+  <novedadesVue />
 </template>
 
 <script setup lang="ts">
