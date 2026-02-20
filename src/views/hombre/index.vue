@@ -3,13 +3,15 @@
     <AvatarGallery :avatars="avatars" />
     <section>
       <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mx-7 my-7">
-        <router-link :to="`/producto/${productItem.slug}`" v-for="(productItem, index) in products"
-          :key="productItem.slug">
+        <router-link
+          v-for="productItem in products"
+          :key="productItem.slug"
+          :to="`/producto/${productItem.slug}`"
+        >
           <Card :product="productItem" />
         </router-link>
       </section>
     </section>
-
   </div>
 </template>
 

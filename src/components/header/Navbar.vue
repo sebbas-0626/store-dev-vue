@@ -3,12 +3,19 @@
     <TopHeader />
     <nav class="px-6 py-4">
       <div class="flex justify-between items-center py-4">
-
-        <MenuButton :is-open="menuOpen" @toggle="toggleMenu" class="sm:hidden" />
+        <MenuButton
+          :is-open="menuOpen"
+          class="sm:hidden"
+          @toggle="toggleMenu"
+        />
         <div class="flex items-center">
           <a href="/">
             <div class="flex mx-4 sm:mx-14 items-center">
-              <img src="/public/images/logoStore.png" class="w-16 mx-1" alt="">
+              <img
+                src="/public/images/logoStore.png"
+                class="w-16 mx-1"
+                alt=""
+              >
               <h1 class="font-bold text-4xl">DEV</h1>
             </div>
           </a>
@@ -19,21 +26,28 @@
 
         <div class="flex items-center lg:flex-row lg:items-center">
           <router-link to="/login">
-            <a @click="handleLogin"
-              class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900 cursor-pointer">
+            <a
+              class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900 cursor-pointer"
+              @click="handleLogin"
+            >
               <UserButton />
               <span class="hidden md:inline">INICIAR SESIÓN</span>
             </a>
           </router-link>
 
-          <a @click="showCartModal"
-            class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900">
+          <a
+            class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900"
+            @click="showCartModal"
+          >
             <CartButton />
             <span class="hidden md:inline">CESTA</span>
           </a>
         </div>
 
-        <MobileMenuModal :is-open="menuOpen" @toggle="toggleMenu" />
+        <MobileMenuModal
+          :is-open="menuOpen"
+          @toggle="toggleMenu"
+        />
       </div>
     </nav>
   </div>

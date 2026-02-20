@@ -1,15 +1,23 @@
 <template>
-    <div>
-      <div class="w-11/12 mt-3 bg-black rounded-lg md:block hidden">
-        <a :href="link" class="gridwide" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
-          <div class="image-container">
-            <h1 class="text-4xl my-4">{{ title }}</h1>
-          </div>
-          <img :src="imageUrl" class="w-full h-auto rounded-b-lg" alt="Image">
-        </a>
-      </div>
+  <div>
+    <div class="w-11/12 mt-3 bg-black rounded-lg md:block hidden">
+      <a
+        :href="link"
+        class="gridwide"
+        :style="{ backgroundImage: 'url(' + imageUrl + ')' }"
+      >
+        <div class="image-container">
+          <h1 class="text-4xl my-4">{{ title }}</h1>
+        </div>
+        <img
+          :src="imageUrl"
+          class="w-full h-auto rounded-b-lg"
+          alt="Image"
+        >
+      </a>
     </div>
-  </template>
+  </div>
+</template>
   
   <script setup lang="ts">
   interface EsatCardProps {
@@ -18,11 +26,9 @@
     link: string;
   }
   
-  const props: EsatCardProps = defineProps({
-    imageUrl: { type: String, required: true },
-    title: { type: String, required: true },
-    link: { type: String, required: true }
-  });
+  // Define the expected props for the component. In <script setup> we can call defineProps
+  // without assigning the result; the props become available as top‑level variables.
+  defineProps<EsatCardProps>();
   </script>
   
   <style>
