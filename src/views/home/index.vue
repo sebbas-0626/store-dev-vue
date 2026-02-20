@@ -1,8 +1,9 @@
 <template>
   <!-- <h1>secciones </h1> -->
   <banner />
-  <novedadesVue />
   <ProductGrid />
+  <novedadesVue />
+  
 </template>
 
 <script setup lang="ts">

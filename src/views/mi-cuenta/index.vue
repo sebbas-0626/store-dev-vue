@@ -1,5 +1,5 @@
 <template>
-     <div class="flex border-solid border-slate-600 mx-6 p-4 space-x-4">
+  <div class="flex border-solid border-slate-600 mx-6 p-4 space-x-4">
     <!-- Columna izquierda con botones -->
     <div class="text-white  p-4 ">
       <!-- <ul class="space-y-2">
@@ -17,12 +17,11 @@
                     Salir
                 </button>
             </ul> -->
-            
-        </div>
-        <div class="text-white bg-black">
-            vistas
-        </div>
     </div>
+    <div class="text-white bg-black">
+      vistas
+    </div>
+  </div>
 </template>
 <script setup lang="ts">
 </script>
