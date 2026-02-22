@@ -15,7 +15,7 @@
                 src="/public/images/logoStore.png"
                 class="w-16 mx-1"
                 alt=""
-              >
+              />
               <h1 class="font-bold text-4xl">DEV</h1>
             </div>
           </a>
@@ -34,24 +34,21 @@
               <span class="hidden md:inline">INICIAR SESIÓN</span>
             </a>
           </router-link>
-
-          <a
+          <!-- CART -->
+          <button
             class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900"
             @click="showCartModal"
           >
-            <CartButton />
-            <span class="hidden md:inline">CESTA</span>
-          </a>
+            <CartButton :cartCount="cartItemCount" />
+            <span class="hidden md:inline ml-1 text-black">CESTA</span>
+          </button>
         </div>
 
-        <MobileMenuModal
-          :is-open="menuOpen"
-          @toggle="toggleMenu"
-        />
+        <MobileMenuModal :is-open="menuOpen" @toggle="toggleMenu" />
       </div>
     </nav>
   </div>
-</template> 
+</template>
 <script setup lang="ts">
 import { ref } from "vue";
 import MenuButton from "../MenuButton.vue";
@@ -63,6 +60,7 @@ import DesktopNavLinks from "../header/DesktopNavLinks.vue";
 
 const menuOpen = ref(false);
 const cartOpen = ref(false);
+const cartItemCount = ref(0);
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
@@ -72,7 +70,5 @@ const showCartModal = () => {
   cartOpen.value = true;
 };
 
-const handleLogin = () => {
-};
+const handleLogin = () => {};
 </script>
-
