@@ -36,8 +36,8 @@
 <script setup lang="ts">
 import Card from '@/components/product/Card.vue';
 import CardH from '@/components/home/CardH.vue';
-import productosHombres from '@/data/productosHombres.json';
-import productosMujer from '@/data/productosMujer.json';
+import productosHombres from '@/core/data/productosHombres.json';
+import productosMujer from '@/core/data/productosMujer.json';
 </script>
 
 <style>

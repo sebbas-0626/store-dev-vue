@@ -185,7 +185,7 @@
 
 <script lang="ts" setup>
 import { computed } from "vue";
-import { useTheme } from "@/composables/useTheme";
+import { useTheme } from "@/shared/composables/useTheme";
 
 import {
   Facebook,
@@ -195,7 +195,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-vue-next";
-import { translations } from "@/utils/translations";
+import { translations } from "@/shared/utils/translations";
 
 // Suponiendo que `useTheme` retorna un reactive `language`
 const { language } = useTheme();

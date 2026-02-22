@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import AvatarGallery from '@/components/AvatarGallery.vue';
 import Card from "@/components/product/Card.vue";
-import productostazas from '@/data/productosTazas.json';
+import productostazas from '@/core/data/productosTazas.json';
 
 const avatars = [
   { src: "/images/accesorios/tazas/mug.jpg" },

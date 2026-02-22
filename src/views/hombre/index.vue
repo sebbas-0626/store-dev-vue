@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import Card from "@/components/product/Card.vue";
 import AvatarGallery from '@/components/AvatarGallery.vue';
-import productosHombres from '@/data/productosHombres.json';
+import productosHombres from '@/core/data/productosHombres.json';
 
 const avatars = [
   { src: "/images/hombre/saco1.webp" },

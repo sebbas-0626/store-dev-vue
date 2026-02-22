@@ -40,7 +40,7 @@
             @click="showCartModal"
           >
             <CartButton :cartCount="cartItemCount" />
-            <!-- <span class="hidden md:inline ml-1">CESTA</span> -->
+            <span class="hidden md:inline ml-1 text-black">CESTA</span>
           </button>
         </div>
 
