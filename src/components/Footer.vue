@@ -168,7 +168,7 @@
               class="flex items-center space-x-2 text-sm text-muted-foreground"
             >
               <MapPin class="h-4 w-4" />
-              <span>123 Fashion St, NYC</span>
+              <span>Neiva - Huila, Colombia</span>
             </div>
           </div>
         </div>
