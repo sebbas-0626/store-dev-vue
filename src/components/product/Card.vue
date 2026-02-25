@@ -11,14 +11,16 @@
         class="w-full h-full object-cover object-center"
         :src="product.image"
         :alt="product.title"
-      >
+      />
 
       <!-- Selector de tallas aparece al hover (para ropa) -->
       <div
         v-if="product.sizes && product.sizes.length > 0"
         class="absolute bottom-0 left-0 right-0 bg-black/90 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
-        <div class="flex justify-center items-center gap-4 py-3 text-sm font-medium">
+        <div
+          class="flex justify-center items-center gap-4 py-3 text-sm font-medium"
+        >
           <button
             v-for="size in product.sizes"
             :key="size.name"
@@ -34,7 +36,7 @@
         v-else
         class="absolute bottom-0 left-0 right-0 bg-black text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
-        <button 
+        <button
           class="w-full py-3 text-sm font-medium hover:bg-gray-800 transition-colors"
           @click.prevent="addToCart"
         >
@@ -60,11 +62,10 @@
       </div>
 
       <!-- Título del producto -->
-      <router-link
-        :to="`/producto/${product.slug || ''}`"
-        class="block"
-      >
-        <h3 class="text-sm font-medium text-gray-900 uppercase hover:text-gray-600 transition-colors">
+      <router-link :to="`/producto/${product.slug || ''}`" class="block">
+        <h3
+          class="text-sm font-medium text-gray-900 uppercase hover:text-gray-600 transition-colors"
+        >
           {{ product.title }}
         </h3>
       </router-link>
@@ -80,34 +81,34 @@
 </template>
 
 <script setup lang="ts">
-import type { Product } from "@/types/Product";
+import type { Product } from "@/core/types/Product";
 
 const props = defineProps({
-    // Definición del producto
-    product: {
-        type: Object as () => Product,
-        default: () => ({
-            image: '',
-            title: '',
-            price: '',
-            slug: '',
-            type: '',
-            sizes: [],
-            colors: []
-        })
-    },
+  // Definición del producto
+  product: {
+    type: Object as () => Product,
+    default: () => ({
+      image: "",
+      title: "",
+      price: "",
+      slug: "",
+      type: "",
+      sizes: [],
+      colors: [],
+    }),
+  },
 });
 
 // Función para añadir al carrito
 const addToCart = () => {
-    // Aquí puedes agregar la lógica para añadir al carrito
-    console.log('Producto añadido al carrito:', props.product);
-    // Emitir evento o llamar a un composable de carrito
+  // Aquí puedes agregar la lógica para añadir al carrito
+  console.log("Producto añadido al carrito:", props.product);
+  // Emitir evento o llamar a un composable de carrito
 };
 </script>
 
 <style scoped>
 .aspect-\[3\/4\] {
-    aspect-ratio: 3 / 4;
+  aspect-ratio: 3 / 4;
 }
 </style>
