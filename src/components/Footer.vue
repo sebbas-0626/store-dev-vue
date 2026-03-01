@@ -81,7 +81,6 @@
           </p>
           <div class="flex space-x-4">
             <Facebook
-            
               class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
             />
             <Instagram
