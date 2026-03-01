@@ -92,7 +92,6 @@
             />
           </div>
         </div>
-
         <!-- Enlaces rápidos -->
         <div class="space-y-4">
           <h4 class="font-semibold">
