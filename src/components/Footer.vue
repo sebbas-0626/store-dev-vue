@@ -69,7 +69,6 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- Logo y descripción -->
-         
         <div class="space-y-4">
           <h3
             class="flex items-center text-2xl font-bold bg-gradient-to-r from-black to-pink-950 bg-clip-text text-transparent"
