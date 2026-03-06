@@ -78,8 +78,7 @@
             <span class="ml-2">DEV</span>
           </h3>
           <p class="text-muted-foreground text-sm">
-            {{ t.footerDescription }}
-            
+            {{ translation.footerDescription }}
           </p>
           <div class="flex space-x-4">
             <Facebook
@@ -96,32 +95,32 @@
         <!-- Enlaces rápidos -->
         <div class="space-y-4">
           <h4 class="font-semibold">
-            {{ t.quickLinks }}
+            {{ translation.quickLinks }}
           </h4>
           <div class="space-y-2">
             <RouterLink
               to="/"
               class="block text-muted-foreground hover:text-primary transition-colors text-sm"
             >
-              {{ t.home }}
+              {{ translation.home }}
             </RouterLink>
             <RouterLink
               to="/men"
               class="block text-muted-foreground hover:text-primary transition-colors text-sm"
             >
-              {{ t.men }}
-            </RouterLink>
+              {{ translation.men }}
+            </RouterLink> 
             <RouterLink
               to="/women"
               class="block text-muted-foreground hover:text-primary transition-colors text-sm"
             >
-              {{ t.women }}
+              {{ translation.women }}
             </RouterLink>
             <RouterLink
               to="/accessories"
               class="block text-muted-foreground hover:text-primary transition-colors text-sm"
             >
-              {{ t.accessories }}
+              {{ translation.accessories }}
             </RouterLink>
           </div>
         </div>
@@ -129,20 +128,20 @@
         <!-- Atención al cliente -->
         <div class="space-y-4">
           <h4 class="font-semibold">
-            {{ t.customerService }}
+            {{ translation.customerService }}
           </h4>
           <div class="space-y-2">
             <p class="text-muted-foreground text-sm">
-              {{ t.aboutUs }}
+              {{ translation.aboutUs }}
             </p>
             <p class="text-muted-foreground text-sm">
-              {{ t.shippingInfo }}
+              {{ translation.shippingInfo }}
             </p>
             <p class="text-muted-foreground text-sm">
-              {{ t.returnPolicy }}
+              {{ translation.returnPolicy }}
             </p>
             <p class="text-muted-foreground text-sm">
-              {{ t.faq }}
+              {{ translation.faq }}
             </p>
           </div>
         </div>
@@ -150,7 +149,7 @@
         <!-- Contacto -->
         <div class="space-y-4">
           <h4 class="font-semibold">
-            {{ t.contact }}
+            {{ translation.contact }}
           </h4>
           <div class="space-y-2">
             <div
@@ -177,7 +176,7 @@
 
       <div class="border-t mt-8 pt-8 text-center">
         <p class="text-muted-foreground text-sm">
-          © 2026 DevStyleShop. {{ t.allRightsReserved }}
+          © 2026 DevStyleShop. {{ translation.allRightsReserved }}
         </p>
       </div>
     </div>
@@ -200,5 +199,5 @@ import { translations } from "@/shared/utils/translations";
 
 // Suponiendo que `useTheme` retorna un reactive `language`
 const { language } = useTheme();
-const t = computed(() => translations[language.value]);
+const translation = computed(() => translations[language.value]);
 </script>
