@@ -79,7 +79,6 @@
           </h3>
           <p class="text-muted-foreground text-sm">
             {{ translation.footerDescription }}
-            
           </p>
           <div class="flex space-x-4">
             <Facebook
