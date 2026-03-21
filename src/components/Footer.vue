@@ -81,15 +81,15 @@
             {{ translation.footerDescription }}
           </p>
           <div class="flex space-x-4">
-            <Facebook
-              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
-            />
-            <Instagram
-              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
-            />
-            <Twitter
-              class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors"
-            />
+            <a href="#" aria-label="Facebook" class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors">
+              <Share2 class="h-5 w-5" />
+            </a>
+            <a href="#" aria-label="Instagram" class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors">
+              <Share2 class="h-5 w-5" />
+            </a>
+            <a href="#" aria-label="Twitter" class="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors">
+              <Facebook class="h-5 w-5" />
+            </a>
           </div>
         </div>
         <!-- Enlaces rápidos -->
@@ -188,12 +188,11 @@ import { computed } from "vue";
 import { useTheme } from "@/shared/composables/useTheme";
 
 import {
-  Facebook,
-  Instagram,
-  Twitter,
   Mail,
   Phone,
   MapPin,
+  Share2,
+  Facebook,
 } from "lucide-vue-next";
 import { translations } from "@/shared/utils/translations";
 
