@@ -81,6 +81,7 @@
 </template>
 
 <script setup lang="ts">
+import { useCartStore } from "@/core/stores";
 import type { Product } from "@/core/types/Product";
 
 const props = defineProps({
@@ -99,11 +100,11 @@ const props = defineProps({
   },
 });
 
+const cartStore = useCartStore();
+
 // Función para añadir al carrito
 const addToCart = () => {
-  // Aquí puedes agregar la lógica para añadir al carrito
-  console.log("Producto añadido al carrito:", props.product);
-  // Emitir evento o llamar a un composable de carrito
+  cartStore.addToCart(props.product);
 };
 </script>
 
