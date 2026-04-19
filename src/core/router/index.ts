@@ -49,7 +49,6 @@ const router = createRouter({
     }
   ]
 })
-
 // Route guards
 router.beforeEach((to, from, next) => {
   const authStore = useAuthStore()
