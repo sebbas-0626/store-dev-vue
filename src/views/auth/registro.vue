@@ -85,8 +85,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import auth from "@/services/auth";
-import Swal from "sweetalert2";
+import { useAuthStore } from "@/core/stores";
 
 const initialData = {
     email: '',
@@ -95,26 +94,14 @@ const initialData = {
 };
 
 const dataForm = ref({ ...initialData });
+const authStore = useAuthStore();
 
-const onSubmit = () => {
-    auth.register(dataForm.value)
-        .then((response) => {
-            dataForm.value = { ...initialData };
-            Swal.fire({
-                icon: "success",
-                title: "Correcto",
-                text: response.message,
-            });
-            // Redireccionar a la página de inicio de sesión u otra página después del registro exitoso
-            // router.push("/login");
-        })
-        .catch((error) => {
-            const data = error?.response?.data;
-            Swal.fire({
-                icon: "error",
-                title: "Opss..",
-                text: data?.message ?? 'Ocurrió un error inesperado',
-            });
-        });
+const onSubmit = async () => {
+    try {
+        await authStore.register(dataForm.value);
+        dataForm.value = { ...initialData };
+    } catch (error) {
+        // Error is handled by the store
+    }
 }
 </script>
