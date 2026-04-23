@@ -9,7 +9,6 @@
             <div class="mb-2" />
             <h2 class="text-2xl font-bold leading-tight text-center">
               Registrarte
-              
             </h2>
             <p class="mt-2 text-base text-gray-600">
               ¿Ya tienes una cuenta?
