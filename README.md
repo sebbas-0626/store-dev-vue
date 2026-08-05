@@ -1,4 +1,4 @@
-# store-dev-vue
+.# store-dev-vue
 
 
 ## Recommended IDE Setup
@@ -147,3 +147,5 @@ npm run build
      - ✅ Testability: Módulos independientes y testeables
      - ✅ Team Collaboration: Múltiples devs sin conflictos
      - ✅ Performance: Lazy loading por feature
+
+     
