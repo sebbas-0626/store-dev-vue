@@ -39,7 +39,7 @@
             class="flex items-center text-gray-600 hover:bg-gray-200 text-left px-2 py-1 rounded hover:text-gray-900"
             @click="showCartModal"
           >
-            <CartButton :cartCount="cartItemCount" />
+            <CartButton :cartCount="cartStore.totalItems" />
             <span class="hidden md:inline ml-1 text-black">CESTA</span>
           </button>
         </div>
@@ -51,6 +51,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from "vue";
+import { useCartStore } from "@/core/stores";
 import MenuButton from "../MenuButton.vue";
 import CartButton from "../ui/CartButton.vue";
 import UserButton from "../ui/UserButton.vue";
@@ -58,16 +59,15 @@ import MobileMenuModal from "./MobileMenuModal.vue";
 import TopHeader from "../header/TopHeader.vue";
 import DesktopNavLinks from "../header/DesktopNavLinks.vue";
 
+const cartStore = useCartStore();
 const menuOpen = ref(false);
-const cartOpen = ref(false);
-const cartItemCount = ref(0);
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
 };
 
 const showCartModal = () => {
-  cartOpen.value = true;
+  cartStore.openCart();
 };
 
 const handleLogin = () => {};
